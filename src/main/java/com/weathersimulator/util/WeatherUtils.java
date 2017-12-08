@@ -325,6 +325,7 @@ public class WeatherUtils {
 		return result;
 
 	}
+
 	public static void main(String args[]) {
 		DateFormat format = new SimpleDateFormat("dd-mm-yyyy HH:mm:ss");
     	Date dateOne = null;

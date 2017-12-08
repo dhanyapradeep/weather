@@ -1,5 +1,8 @@
 package com.weathersimulator.model;
 
+/**
+ * The model class representing the airport 
+ */
 public class Airport {
  	
 	private Integer id;

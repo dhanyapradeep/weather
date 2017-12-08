@@ -10,6 +10,9 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * The test cases to be executed for the weather game module are included in this test class 
+ */
 public class WeatherUtilTest {
 
 	public static final Logger LOGGER = LoggerFactory.getLogger(WeatherUtilTest.class);

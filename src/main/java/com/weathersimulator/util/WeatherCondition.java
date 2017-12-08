@@ -1,5 +1,8 @@
 package com.weathersimulator.util;
 
+/**
+ * The possible weather conditions
+ */
 public enum WeatherCondition {
 
 	SNOW("Snow"), SUNNY("Sunny"), RAIN("Rain");
