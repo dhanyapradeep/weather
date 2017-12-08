@@ -24,7 +24,7 @@ Add 1  degree celsius for every 100 km distance from the sea
 #### Calculation of Pressure  
 Calculated based on latitude, elevation, temperature , humidity 
 * Average sea level pressure = 1013.25 mbar (https://en.wikipedia.org/wiki/Atmospheric_pressure) 
-* Correct average sea level pressure for latitude - Hadleys 3 cell (Wikipedia  Atmospheric circulation)
+* Correct average sea level pressure for latitude   (Wikipedia  Atmospheric circulation)
 * Correct for altitude - pressure decreases by about 1.2 kPa(1 kpa = 10mbar) for every 100 metres 
 pressure decreases by 12 mbar for every 100 metres
  
@@ -42,11 +42,15 @@ Humidity doubles with each 20 degree Fahrenheit decrease (http://ocw.usu.edu/For
 ### 2. To Run this project locally
 * Install Java
 * Install Maven  
+
+```
+https://www.mkyong.com/maven/how-to-install-maven-in-windows/
+```
  
 Download the repository from github and run using Maven 
 
 ```
-$ git clone https://github.com/dhanyakairali/weathersample
+$ git clone https://github.com/dhanyapradeep/weather
 $ mvn jetty:run
 ```
  
