@@ -339,9 +339,9 @@ public class WeatherUtils {
 		} 
     	
     	double temperatureForOne = WeatherUtils.getTemperature(23.112719, 96.0 , dateOne,6,18);
-    	System.out.println("temperatureForOne:"+temperatureForOne);
+    	LOGGER.debug("temperatureForOne:"+temperatureForOne);
     	double temperatureForTwo = WeatherUtils.getTemperature(25.440064, 96.0 , dateTwo,6,18);
-    	System.out.println("temperatureForTwo:"+temperatureForTwo);
+    	LOGGER.debug("temperatureForTwo:"+temperatureForTwo);
 		
 	}
 

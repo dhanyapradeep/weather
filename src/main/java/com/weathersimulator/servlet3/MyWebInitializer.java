@@ -8,6 +8,10 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import com.weathersimulator.config.SpringRootConfig;
 import com.weathersimulator.config.SpringWebConfig;
 
+/**
+ * Class to configure the web project instead of the classic web.xml file
+ * This configuration file registers and initializes the DispatcherServlet
+ */
 public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override

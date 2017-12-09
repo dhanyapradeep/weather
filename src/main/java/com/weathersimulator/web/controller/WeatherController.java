@@ -1,7 +1,6 @@
 package com.weathersimulator.web.controller;
 
 import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Iterator;
@@ -30,9 +29,9 @@ import com.weathersimulator.util.WeatherUtils;
  *
  */
 @Controller
-public class WelcomeController {
+public class WeatherController {
 
-	private static final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
+	private static final Logger logger = LoggerFactory.getLogger(WeatherController.class);
 
 	// The Model
 	@Autowired
@@ -97,7 +96,6 @@ public class WelcomeController {
 	 * @param airport
 	 * @param date
 	 * @return
-	 * @throws ParseException
 	 */
 	private void predictWeather(Airport airport, Date date) {
 

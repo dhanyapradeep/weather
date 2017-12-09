@@ -25,7 +25,7 @@ public class AirportDaoTest {
     public void setUp() {
         //db = new EmbeddedDatabaseBuilder().addDefaultScripts().build();
     	db = new EmbeddedDatabaseBuilder()
-    		.setType(EmbeddedDatabaseType.H2)
+    		.setType(EmbeddedDatabaseType.HSQL)
     		.addScript("db/sql/create-db.sql")
     		.addScript("db/sql/insert-data.sql")
     		.build();
