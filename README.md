@@ -74,7 +74,12 @@ $ mvn eclipse:eclipse
 * Import into Eclipse via **existing projects into workspace** option.
 * Done. 
  
-### 4. Other references
+### 4. Flow of control
+
+![alt text](https://github.com/dhanyapradeep/weather/blob/master/src/main/resources/weather.jpg)
+ 
+ 
+### 5. Other references
 https://github.com/mkyong/spring-embedded-database
 Example for Spring MVC embedded DB 
 
